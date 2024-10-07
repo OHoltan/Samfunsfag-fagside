@@ -16,6 +16,10 @@ app.get('/Kjonnsroller', function(req, res) {
   res.render('pages/Kjonnsroller');
 });
 
+app.get('/DemokratiUke41', function(req, res) {
+  res.render('pages/DemokratiUke41');
+});
+
 app.get('*', function(req, res){
     res.render('pages/index');
 });
